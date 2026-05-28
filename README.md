@@ -5,7 +5,7 @@
 Este proyecto realiza un Análisis Exploratorio de Datos (EDA) sobre la actividad sísmica reciente en Chile. Automatiza la extracción de datos desde una API REST pública, realiza transformaciones y limpieza con Pandas, y genera visualizaciones avanzadas sobre la frecuencia, magnitud y distribución geográfica de los sismos utilizando Seaborn y Matplotlib.
 
 ## 🛠️ Stack Tecnológico
-- **Lenguaje:** Python 3.11
+- **Lenguaje:** Python 
 - **Entorno:** GitHub Codespaces / Jupyter Notebooks
 - **Librerías Principales:** Pandas, NumPy, Requests, Matplotlib, Seaborn
 - **Fuente de Datos:** API de Boostr (`https://api.boostr.cl/earthquakes.json`)
