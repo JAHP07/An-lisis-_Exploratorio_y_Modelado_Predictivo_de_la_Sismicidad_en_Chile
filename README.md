@@ -194,7 +194,7 @@ Este proyecto está bajo licencia MIT. Ver archivo [LICENSE](LICENSE) para detal
 ## 👤 Autor
 
 **Data Analyst Portfolio Project**  
-Desarrollado como demostración de habilidades para postulaciones a roles de Data Analyst / Machine Learning Engineer Jr.
+Desarrollado como demostración de habilidades Data Analyst / Machine Learning Engineer Jr.
 
 ---
 
