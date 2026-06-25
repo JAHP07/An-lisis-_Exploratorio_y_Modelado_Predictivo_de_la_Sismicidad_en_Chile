@@ -102,39 +102,7 @@ Este proyecto demuestra habilidades profesionales de **Data Analyst / ML Enginee
 └── README.md                     # Este archivo
 ```
 
----
 
-## 🚀 Instalación y Uso Rápido
-
-### Opción 1: GitHub Codespaces (Recomendado)
-1. Haz clic en **Code** → **Codespaces** → **Create codespace on main**
-2. El entorno se configura automáticamente
-3. Abre `notebooks/analisis_sismico.ipynb` y ejecuta **Run All**
-
-### Opción 2: Local
-```bash
-# Clonar repositorio
-git clone https://github.com/tu-usuario/analisis-sismico-chile.git
-cd analisis-sismico-chile
-
-# Crear entorno virtual
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# Instalar dependencias
-pip install -r requirements.txt
-
-# Ejecutar análisis
-python -m src.analysis
-
-# Ejecutar tests
-pytest tests/ -v
-
-# Generar visualizaciones
-python -m src.visualization
-```
-
----
 
 ## 🔬 Funcionalidades de Machine Learning
 
