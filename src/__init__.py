@@ -23,4 +23,4 @@ from .analisis import (
 )
 
 __version__ = '1.0.0'
-__author__ = 'Data Analyst Portfolio'
+__author__ = 'Jonathan Huenuanca'

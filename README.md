@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://img.shields.io/badge/tests-12%20passed-green.svg)]()
+[![CI](https://github.com/JAHP07/An-lisis-Exploratorio-y-Modelado-Predictivo-de-Datos-S-smicos-en-Chile/actions/workflows/ci.yml/badge.svg)](https://github.com/JAHP07/An-lisis-Exploratorio-y-Modelado-Predictivo-de-Datos-S-smicos-en-Chile/actions/workflows/ci.yml)
 
 **Proyecto de Portafolio: EDA + Machine Learning + Visualización de Datos en Tiempo Real**
 
@@ -14,12 +14,12 @@ Este proyecto demuestra habilidades profesionales de **Data Analyst / ML Enginee
 
 | Métrica | Valor |
 |---------|-------|
-| **Total de Sismos Analizados** | 836 eventos |
+| **Total de Sismos Analizados** | 820 eventos |
 | **Magnitud Promedio** | 4.39 |
 | **Magnitud Máxima** | 6.9 |
-| **Profundidad Promedio** | 105.23 km |
+| **Profundidad Promedio** | 102.09 km |
 | **Sismos de Alta Magnitud (≥6.0)** | 4 eventos |
-| **Sismos Superficiales (<70km)** | 293 eventos (35%) |
+| **Sismos Superficiales (<70km)** | 299 eventos (36%) |
 | **Región Más Activa** | Off the coast of Aisen, Chile |
 
 ---
@@ -28,7 +28,7 @@ Este proyecto demuestra habilidades profesionales de **Data Analyst / ML Enginee
 
 ### Hallazgos Principales:
 
-1. **Distribución de Magnitudes**: El 94.5% de los sismos son de magnitud baja (4.0-5.0), lo que indica actividad sísmica normal sin eventos catastróficos en el período analizado.
+1. **Distribución de Magnitudes**: El 94.4% de los sismos son de magnitud baja (4.0-5.0), lo que indica actividad sísmica normal sin eventos catastróficos en el período analizado.
 
 2. **Relación Magnitud-Profundidad**: La correlación es prácticamente nula (-0.028), demostrando que **la profundidad no es un predictor útil de la magnitud** en esta región. Esto tiene implicaciones importantes para modelos predictivos.
 
@@ -80,21 +80,19 @@ Este proyecto demuestra habilidades profesionales de **Data Analyst / ML Enginee
 ```
 ├── src/                          # Código modularizado
 │   ├── __init__.py               # Paquete principal
-│   ├── data_extraction.py        # ETL: Extracción y limpieza
-│   ├── visualization.py          # Gráficos profesionales
-│   └── analysis.py               # Estadísticas + ML
+│   ├── extraccion_datos.py       # ETL: Extracción y limpieza
+│   ├── visualizacion.py          # Gráficos profesionales
+│   └── analisis.py               # Estadísticas + ML
 ├── tests/                        # Tests unitarios
-│   ├── test_analysis.py          # Tests de análisis
-│   └── test_visualization.py     # Tests de visualización
-├── notebooks/                    # Notebooks ejecutables
-│   ├── analisis_sismico.ipynb    # Notebook principal
-│   └── analisis_sismico.html     # Versión HTML con outputs
+│   ├── test_analisis.py          # Tests de extracción y análisis
+│   └── test_visualizacion.py     # Tests de visualización
+├── notebooks/
+│   └── analisis_sismico.ipynb    # Notebook principal ejecutable
 ├── output/                       # Resultados generados
 │   ├── magnitude_distribution.png
 │   ├── depth_vs_magnitude.png
 │   └── geographic_distribution.png
-├── data/                         # Datos crudos (opcional)
-├── images/                       # Imágenes adicionales
+├── .github/workflows/ci.yml      # CI: pytest automático
 ├── .devcontainer/                # Configuración Codespaces
 ├── .gitignore                    # Archivos ignorados
 ├── LICENSE                       # Licencia MIT
@@ -147,9 +145,8 @@ Este proyecto evidencia competencias clave para roles de **Data Analyst Jr** y *
 
 ## 🔗 Links de Interés
 
-- [Ver Notebook Ejecutable en Google Colab](https://colab.research.google.com/github/tu-usuario/analisis-sismico-chile/blob/main/notebooks/analisis_sismico.ipynb)
+- [Ver Notebook Ejecutable en Google Colab](https://colab.research.google.com/github/JAHP07/An-lisis-Exploratorio-y-Modelado-Predictivo-de-Datos-S-smicos-en-Chile/blob/main/notebooks/analisis_sismico.ipynb)
 - [Documentación USGS API](https://earthquake.usgs.gov/fdsnws/event/1/)
-- [Dashboard HTML](notebooks/analisis_sismico.html)
 
 ---
 
@@ -161,8 +158,11 @@ Este proyecto está bajo licencia MIT. Ver archivo [LICENSE](LICENSE) para detal
 
 ## 👤 Autor
 
-**Data Analyst Portfolio Project**  
-Desarrollado como demostración de habilidades Data Analyst / Machine Learning Engineer Jr.
+**Jonathan Huenuanca** — Ingeniero en Informática  
+Proyecto de portafolio desarrollado como demostración de habilidades en análisis de datos y machine learning.
+
+- [GitHub](https://github.com/JAHP07)
+- [LinkedIn](https://www.linkedin.com/in/jonathanhuenuanca)
 
 ---
 
