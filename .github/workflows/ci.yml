@@ -16,4 +16,4 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
       - name: Ejecutar tests
-        run: pytest tests/ -v
+        run: python -m pytest tests/ -v
